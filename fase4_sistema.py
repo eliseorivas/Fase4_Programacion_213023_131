@@ -11,16 +11,16 @@ class Cliente:
     def __init__(self, nombre, documento, telefono):
 
         # Validación del nombre
-        if not nombre.strip():
-            raise ValueError("El nombre del cliente no puede estar vacío.")
+        if not isinstance(nombre, str) or not nombre.strip():
+            raise ValueError("El nombre del cliente debe ser un texto válido y no puede estar vacío")
 
         # Validación del documento
-        if not documento.strip():
-            raise ValueError("El documento no puede estar vacío.")
+        if not isinstance(documento, str) or not documento.strip():
+            raise ValueError("El documento debe ser un texto válido y no puede estar vacío.")
 
         # Validación del teléfono
-        if not telefono.strip():
-            raise ValueError("El teléfono no puede estar vacío.")
+        if not isinstance(telefono, str) or not telefono.strip():
+            raise ValueError("El teléfono debe ser un texto válido y no puede estar vacío.")
 
         # Encapsulación de los datos del cliente
         self.__nombre = nombre
@@ -46,3 +46,10 @@ class Cliente:
             f"Documento: {self.__documento} - "
             f"Teléfono: {self.__telefono}"
         )
+
+    # PRUEBA 1: Cliente con datos válidos
+try:
+    cliente1 = Cliente("Eliseo Rivas", "123456789", "3001234567")
+    print(cliente1.mostrar_informacion())
+except ValueError as error:
+    print("Error:", error)
