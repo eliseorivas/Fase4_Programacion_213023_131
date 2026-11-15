@@ -17,15 +17,24 @@ class Cliente:
         # Validación del documento
         if not isinstance(documento, str) or not documento.strip():
             raise ValueError("El documento debe ser un texto válido y no puede estar vacío.")
+        if not documento.strip().isdigit():
+            raise ValueError("El numero de documento debe contener solo numeros.")
 
         # Validación del teléfono
         if not isinstance(telefono, str) or not telefono.strip():
             raise ValueError("El teléfono debe ser un texto válido y no puede estar vacío.")
 
+        if not documento.strip().isdigit():
+            raise ValueError("El teléfono debe contener solo números.")
+
+        if len(telefono.strip()) != 10:
+             raise ValueError("El teléfono debe contener 10 dígitos.")
+            
+
         # Encapsulación de los datos del cliente
-        self.__nombre = nombre
-        self.__documento = documento
-        self.__telefono = telefono
+        self.__nombre = nombre.strip()
+        self.__documento = documento.strip()
+        self.__telefono = telefono.strip()
 
     # Devuelve el nombre del cliente
     def obtener_nombre(self):
