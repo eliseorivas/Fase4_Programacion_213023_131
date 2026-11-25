@@ -1,0 +1,60 @@
+SALIDA DE TESTS (ejecución comprobada)
+==================================================
+test_abstraccion (test_sistema.TestSistemaSoftwareFJ.test_abstraccion) ... ok
+test_asesoria_costo (test_sistema.TestSistemaSoftwareFJ.test_asesoria_costo) ... ok
+test_cancelar (test_sistema.TestSistemaSoftwareFJ.test_cancelar) ... ok
+test_cantidad_equipo_invalida (test_sistema.TestSistemaSoftwareFJ.test_cantidad_equipo_invalida) ... ok
+test_cliente_duplicado (test_sistema.TestSistemaSoftwareFJ.test_cliente_duplicado) ... ok
+test_cliente_no_registrado (test_sistema.TestSistemaSoftwareFJ.test_cliente_no_registrado) ... ok
+test_cliente_valido (test_sistema.TestSistemaSoftwareFJ.test_cliente_valido) ... ok
+test_control_de_errores_continua (test_sistema.TestSistemaSoftwareFJ.test_control_de_errores_continua) ... ok
+test_descuento_e_impuesto (test_sistema.TestSistemaSoftwareFJ.test_descuento_e_impuesto) ... ok
+test_doble_cancelacion (test_sistema.TestSistemaSoftwareFJ.test_doble_cancelacion) ... ok
+test_doble_confirmacion (test_sistema.TestSistemaSoftwareFJ.test_doble_confirmacion) ... ok
+test_documento_con_letras (test_sistema.TestSistemaSoftwareFJ.test_documento_con_letras) ... ok
+test_duracion_infinita (test_sistema.TestSistemaSoftwareFJ.test_duracion_infinita) ... ok
+test_equipos_costo (test_sistema.TestSistemaSoftwareFJ.test_equipos_costo) ... ok
+test_especialidad_vacia (test_sistema.TestSistemaSoftwareFJ.test_especialidad_vacia) ... ok
+test_no_disponible (test_sistema.TestSistemaSoftwareFJ.test_no_disponible) ... ok
+test_nombre_vacio (test_sistema.TestSistemaSoftwareFJ.test_nombre_vacio) ... ok
+test_porcentaje_invalido (test_sistema.TestSistemaSoftwareFJ.test_porcentaje_invalido) ... ok
+test_reserva_confirmar (test_sistema.TestSistemaSoftwareFJ.test_reserva_confirmar) ... ok
+test_reserva_duracion_negativa (test_sistema.TestSistemaSoftwareFJ.test_reserva_duracion_negativa) ... ok
+test_sala_polimorfismo (test_sistema.TestSistemaSoftwareFJ.test_sala_polimorfismo) ... ok
+test_telefono_invalido (test_sistema.TestSistemaSoftwareFJ.test_telefono_invalido) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.003s
+
+OK
+
+
+SALIDA DE 16 OPERACIONES
+==================================================
+==================================================================
+SOFTWARE FJ - FASE 4 | DEMOSTRACIÓN DE OPERACIONES
+==================================================================
+[OK] 01. Cliente válido: Ana Pérez | CC 123456789 | Tel. 3001234567
+[ERROR CONTROLADO] 02. Cliente con nombre vacío: Nombre debe ser texto y no puede estar vacío.
+[ERROR CONTROLADO] 03. Documento con letras: El documento debe contener entre 5 y 15 dígitos.
+[OK] 04. Registrar sala válida: Sala: Sala de reuniones; aforo: 10; $50000/hora
+[OK] 05. Registrar equipos válidos: Equipos: Portátiles; cantidad: 3; $15000/equipo/hora
+[ERROR CONTROLADO] 06. Equipos con cantidad inválida: Cantidad de equipos debe ser un entero positivo.
+[OK] 07. Registrar asesoría válida: Asesoría: Asesoría Python; especialidad: Python; $80000/hora
+[ERROR CONTROLADO] 08. Asesoría con especialidad vacía: Especialidad debe ser texto y no puede estar vacío.
+[OK] 09. Crear reserva de sala: RES-55B8D6B1 | Ana Pérez | Sala de reuniones | 2 h | pendiente | $0.00
+[OK] 10. Confirmar reserva de sala: 100000.00
+[ERROR CONTROLADO] 11. Duración negativa: Duración debe ser mayor que cero y finito.
+[ERROR CONTROLADO] 12. Servicio no disponible: El servicio no está disponible.
+[OK] 13. Costo con descuento 10% e IVA 19%: 96390.00
+[OK] 14. Cancelar reserva: cancelada
+[ERROR CONTROLADO] 15. Cancelación repetida: La reserva ya está cancelada.
+[ERROR CONTROLADO] 16. Cliente duplicado: Ya existe un cliente con ese documento.
+
+RESUMEN DEL SISTEMA
+Clientes: 1 | Servicios: 3 | Reservas: 3
+  - RES-55B8D6B1 | Ana Pérez | Sala de reuniones | 2 h | confirmada | $100000.00
+  - RES-5368A6C9 | Ana Pérez | Sala de reuniones | 1 h | pendiente | $0.00
+  - RES-ABB8B477 | Ana Pérez | Portátiles | 2 h | cancelada | $96390.00
+
+REGISTRO DE ERRORES Y EVENTOS: /mnt/data/Software_FJ_Fase4/logs/software_fj.log

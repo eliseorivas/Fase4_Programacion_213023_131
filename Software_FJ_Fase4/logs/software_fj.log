@@ -1,0 +1,1537 @@
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-3C961EF3
+2026-11-22 19:34:25 | INFO | Reserva cancelada: RES-3C961EF3
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 987654321
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | INICIO: prueba fallida
+2026-11-22 19:34:25 | ERROR | ERROR IMPREVISTO en prueba fallida: division by zero
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/test_sistema.py", line 112, in <lambda>
+    self.assertIsNone(ejecutar_controlado("prueba fallida", lambda: 1/0))
+                                                                    ~^~
+ZeroDivisionError: division by zero
+2026-11-22 19:34:25 | INFO | FIN: prueba fallida
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Servicio registrado: PC
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-D551AEC1
+2026-11-22 19:34:25 | INFO | Reserva RES-D551AEC1 procesada: 96390.00
+2026-11-22 19:34:25 | INFO | Finalizó intento de procesamiento de RES-D551AEC1
+2026-11-22 19:34:25 | INFO | Reserva confirmada: RES-D551AEC1
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-2C59E430
+2026-11-22 19:34:25 | INFO | Reserva cancelada: RES-2C59E430
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-9E95136D
+2026-11-22 19:34:25 | INFO | Reserva RES-9E95136D procesada: 100000.00
+2026-11-22 19:34:25 | INFO | Finalizó intento de procesamiento de RES-9E95136D
+2026-11-22 19:34:25 | INFO | Reserva confirmada: RES-9E95136D
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-3DD0D793
+2026-11-22 19:34:25 | INFO | Disponibilidad de Sala Azul: False
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-9060B432
+2026-11-22 19:34:25 | INFO | Reserva RES-9060B432 procesada: 100000.00
+2026-11-22 19:34:25 | INFO | Finalizó intento de procesamiento de RES-9060B432
+2026-11-22 19:34:25 | INFO | Reserva confirmada: RES-9060B432
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:25 | INFO | INICIO: 01. Cliente válido
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:25 | INFO | OK: 01. Cliente válido
+2026-11-22 19:34:25 | INFO | FIN: 01. Cliente válido
+2026-11-22 19:34:25 | INFO | INICIO: 02. Cliente con nombre vacío
+2026-11-22 19:34:25 | ERROR | ERROR CONTROLADO en 02. Cliente con nombre vacío: Nombre debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 29, in __init__
+    self.__nombre = validar_texto(nombre, "Nombre")
+                    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Nombre debe ser texto y no puede estar vacío.
+2026-11-22 19:34:25 | INFO | FIN: 02. Cliente con nombre vacío
+2026-11-22 19:34:25 | INFO | INICIO: 03. Documento con letras
+2026-11-22 19:34:25 | ERROR | ERROR CONTROLADO en 03. Documento con letras: El documento debe contener entre 5 y 15 dígitos.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 30, in __init__
+    self.__documento = validar_documento(documento)
+                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 17, in validar_documento
+    raise ClienteInvalidoError("El documento debe contener entre 5 y 15 dígitos.")
+excepciones.ClienteInvalidoError: El documento debe contener entre 5 y 15 dígitos.
+2026-11-22 19:34:25 | INFO | FIN: 03. Documento con letras
+2026-11-22 19:34:25 | INFO | INICIO: 04. Registrar sala válida
+2026-11-22 19:34:25 | INFO | Servicio registrado: Sala de reuniones
+2026-11-22 19:34:25 | INFO | OK: 04. Registrar sala válida
+2026-11-22 19:34:25 | INFO | FIN: 04. Registrar sala válida
+2026-11-22 19:34:25 | INFO | INICIO: 05. Registrar equipos válidos
+2026-11-22 19:34:25 | INFO | Servicio registrado: Portátiles
+2026-11-22 19:34:25 | INFO | OK: 05. Registrar equipos válidos
+2026-11-22 19:34:25 | INFO | FIN: 05. Registrar equipos válidos
+2026-11-22 19:34:25 | INFO | INICIO: 06. Equipos con cantidad inválida
+2026-11-22 19:34:25 | ERROR | ERROR CONTROLADO en 06. Equipos con cantidad inválida: Cantidad de equipos debe ser un entero positivo.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 87, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 90, in validar_parametros
+    validar_entero_positivo(self.cantidad, "Cantidad de equipos")
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 30, in validar_entero_positivo
+    raise ErrorValidacion(f"{campo} debe ser un entero positivo.")
+excepciones.ErrorValidacion: Cantidad de equipos debe ser un entero positivo.
+2026-11-22 19:34:25 | INFO | FIN: 06. Equipos con cantidad inválida
+2026-11-22 19:34:25 | INFO | INICIO: 07. Registrar asesoría válida
+2026-11-22 19:34:25 | INFO | Servicio registrado: Asesoría Python
+2026-11-22 19:34:25 | INFO | OK: 07. Registrar asesoría válida
+2026-11-22 19:34:25 | INFO | FIN: 07. Registrar asesoría válida
+2026-11-22 19:34:25 | INFO | INICIO: 08. Asesoría con especialidad vacía
+2026-11-22 19:34:25 | ERROR | ERROR CONTROLADO en 08. Asesoría con especialidad vacía: Especialidad debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 108, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 111, in validar_parametros
+    self.especialidad = validar_texto(self.especialidad, "Especialidad")
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Especialidad debe ser texto y no puede estar vacío.
+2026-11-22 19:34:25 | INFO | FIN: 08. Asesoría con especialidad vacía
+2026-11-22 19:34:25 | INFO | INICIO: 09. Crear reserva de sala
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-BDAF3AA5
+2026-11-22 19:34:25 | INFO | OK: 09. Crear reserva de sala
+2026-11-22 19:34:25 | INFO | FIN: 09. Crear reserva de sala
+2026-11-22 19:34:25 | INFO | INICIO: 10. Confirmar reserva de sala
+2026-11-22 19:34:25 | INFO | Reserva RES-BDAF3AA5 procesada: 100000.00
+2026-11-22 19:34:25 | INFO | Finalizó intento de procesamiento de RES-BDAF3AA5
+2026-11-22 19:34:25 | INFO | Reserva confirmada: RES-BDAF3AA5
+2026-11-22 19:34:25 | INFO | OK: 10. Confirmar reserva de sala
+2026-11-22 19:34:25 | INFO | FIN: 10. Confirmar reserva de sala
+2026-11-22 19:34:25 | INFO | INICIO: 11. Duración negativa
+2026-11-22 19:34:25 | ERROR | ERROR CONTROLADO en 11. Duración negativa: Duración debe ser mayor que cero y finito.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 35, in crear_reserva
+    reserva = Reserva(cliente, servicio, duracion)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 22, in __init__
+    self.__duracion = validar_numero(duracion, "Duración")
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 45, in validar_numero
+    raise ErrorValidacion(f"{campo} debe ser {regla} y finito.")
+excepciones.ErrorValidacion: Duración debe ser mayor que cero y finito.
+2026-11-22 19:34:25 | INFO | FIN: 11. Duración negativa
+2026-11-22 19:34:25 | INFO | Disponibilidad de Sala de reuniones: False
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-B3CC50AC
+2026-11-22 19:34:25 | INFO | INICIO: 12. Servicio no disponible
+2026-11-22 19:34:25 | ERROR | ERROR CONTROLADO en 12. Servicio no disponible: El servicio no está disponible.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 70, in confirmar
+    total = self.procesar(descuento, impuesto)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 47, in procesar
+    raise ServicioNoDisponibleError("El servicio no está disponible.")
+excepciones.ServicioNoDisponibleError: El servicio no está disponible.
+2026-11-22 19:34:25 | INFO | FIN: 12. Servicio no disponible
+2026-11-22 19:34:25 | INFO | Reserva creada: RES-2B30B7F2
+2026-11-22 19:34:25 | INFO | INICIO: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:34:25 | INFO | Reserva RES-2B30B7F2 procesada: 96390.00
+2026-11-22 19:34:25 | INFO | Finalizó intento de procesamiento de RES-2B30B7F2
+2026-11-22 19:34:25 | INFO | Reserva confirmada: RES-2B30B7F2
+2026-11-22 19:34:25 | INFO | OK: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:34:25 | INFO | FIN: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:34:25 | INFO | INICIO: 14. Cancelar reserva
+2026-11-22 19:34:25 | INFO | Reserva cancelada: RES-2B30B7F2
+2026-11-22 19:34:25 | INFO | OK: 14. Cancelar reserva
+2026-11-22 19:34:25 | INFO | FIN: 14. Cancelar reserva
+2026-11-22 19:34:25 | INFO | INICIO: 15. Cancelación repetida
+2026-11-22 19:34:25 | ERROR | ERROR CONTROLADO en 15. Cancelación repetida: La reserva ya está cancelada.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 77, in cancelar
+    raise ReservaInvalidaError("La reserva ya está cancelada.")
+excepciones.ReservaInvalidaError: La reserva ya está cancelada.
+2026-11-22 19:34:25 | INFO | FIN: 15. Cancelación repetida
+2026-11-22 19:34:25 | INFO | INICIO: 16. Cliente duplicado
+2026-11-22 19:34:25 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:25 | ERROR | ERROR CONTROLADO en 16. Cliente duplicado: Ya existe un cliente con ese documento.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 18, in registrar_cliente
+    raise ClienteInvalidoError("Ya existe un cliente con ese documento.")
+excepciones.ClienteInvalidoError: Ya existe un cliente con ese documento.
+2026-11-22 19:34:25 | INFO | FIN: 16. Cliente duplicado
+2026-11-22 19:34:25 | INFO | Demostración completada con 16 operaciones numeradas.
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Reserva creada: RES-51CD512D
+2026-11-22 19:34:58 | INFO | Reserva cancelada: RES-51CD512D
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 987654321
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | INICIO: prueba fallida
+2026-11-22 19:34:58 | ERROR | ERROR IMPREVISTO en prueba fallida: division by zero
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/test_sistema.py", line 112, in <lambda>
+    self.assertIsNone(ejecutar_controlado("prueba fallida", lambda: 1/0))
+                                                                    ~^~
+ZeroDivisionError: division by zero
+2026-11-22 19:34:58 | INFO | FIN: prueba fallida
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Servicio registrado: PC
+2026-11-22 19:34:58 | INFO | Reserva creada: RES-3A80EAA6
+2026-11-22 19:34:58 | INFO | Reserva RES-3A80EAA6 procesada: 96390.00
+2026-11-22 19:34:58 | INFO | Finalizó intento de procesamiento de RES-3A80EAA6
+2026-11-22 19:34:58 | INFO | Reserva confirmada: RES-3A80EAA6
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Reserva creada: RES-A9C0389D
+2026-11-22 19:34:58 | INFO | Reserva cancelada: RES-A9C0389D
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Reserva creada: RES-ED27F953
+2026-11-22 19:34:58 | INFO | Reserva RES-ED27F953 procesada: 100000.00
+2026-11-22 19:34:58 | INFO | Finalizó intento de procesamiento de RES-ED27F953
+2026-11-22 19:34:58 | INFO | Reserva confirmada: RES-ED27F953
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Reserva creada: RES-371B0B19
+2026-11-22 19:34:58 | INFO | Disponibilidad de Sala Azul: False
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Reserva creada: RES-016CA811
+2026-11-22 19:34:58 | INFO | Reserva RES-016CA811 procesada: 100000.00
+2026-11-22 19:34:58 | INFO | Finalizó intento de procesamiento de RES-016CA811
+2026-11-22 19:34:58 | INFO | Reserva confirmada: RES-016CA811
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:58 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:58 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:58 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:34:59 | INFO | INICIO: 01. Cliente válido
+2026-11-22 19:34:59 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:59 | INFO | Cliente registrado: 123456789
+2026-11-22 19:34:59 | INFO | OK: 01. Cliente válido
+2026-11-22 19:34:59 | INFO | FIN: 01. Cliente válido
+2026-11-22 19:34:59 | INFO | INICIO: 02. Cliente con nombre vacío
+2026-11-22 19:34:59 | ERROR | ERROR CONTROLADO en 02. Cliente con nombre vacío: Nombre debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 29, in __init__
+    self.__nombre = validar_texto(nombre, "Nombre")
+                    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Nombre debe ser texto y no puede estar vacío.
+2026-11-22 19:34:59 | INFO | FIN: 02. Cliente con nombre vacío
+2026-11-22 19:34:59 | INFO | INICIO: 03. Documento con letras
+2026-11-22 19:34:59 | ERROR | ERROR CONTROLADO en 03. Documento con letras: El documento debe contener entre 5 y 15 dígitos.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 30, in __init__
+    self.__documento = validar_documento(documento)
+                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 17, in validar_documento
+    raise ClienteInvalidoError("El documento debe contener entre 5 y 15 dígitos.")
+excepciones.ClienteInvalidoError: El documento debe contener entre 5 y 15 dígitos.
+2026-11-22 19:34:59 | INFO | FIN: 03. Documento con letras
+2026-11-22 19:34:59 | INFO | INICIO: 04. Registrar sala válida
+2026-11-22 19:34:59 | INFO | Servicio registrado: Sala de reuniones
+2026-11-22 19:34:59 | INFO | OK: 04. Registrar sala válida
+2026-11-22 19:34:59 | INFO | FIN: 04. Registrar sala válida
+2026-11-22 19:34:59 | INFO | INICIO: 05. Registrar equipos válidos
+2026-11-22 19:34:59 | INFO | Servicio registrado: Portátiles
+2026-11-22 19:34:59 | INFO | OK: 05. Registrar equipos válidos
+2026-11-22 19:34:59 | INFO | FIN: 05. Registrar equipos válidos
+2026-11-22 19:34:59 | INFO | INICIO: 06. Equipos con cantidad inválida
+2026-11-22 19:34:59 | ERROR | ERROR CONTROLADO en 06. Equipos con cantidad inválida: Cantidad de equipos debe ser un entero positivo.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 90, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 93, in validar_parametros
+    validar_entero_positivo(self.cantidad, "Cantidad de equipos")
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 30, in validar_entero_positivo
+    raise ErrorValidacion(f"{campo} debe ser un entero positivo.")
+excepciones.ErrorValidacion: Cantidad de equipos debe ser un entero positivo.
+2026-11-22 19:34:59 | INFO | FIN: 06. Equipos con cantidad inválida
+2026-11-22 19:34:59 | INFO | INICIO: 07. Registrar asesoría válida
+2026-11-22 19:34:59 | INFO | Servicio registrado: Asesoría Python
+2026-11-22 19:34:59 | INFO | OK: 07. Registrar asesoría válida
+2026-11-22 19:34:59 | INFO | FIN: 07. Registrar asesoría válida
+2026-11-22 19:34:59 | INFO | INICIO: 08. Asesoría con especialidad vacía
+2026-11-22 19:34:59 | ERROR | ERROR CONTROLADO en 08. Asesoría con especialidad vacía: Especialidad debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 111, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 114, in validar_parametros
+    self.especialidad = validar_texto(self.especialidad, "Especialidad")
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Especialidad debe ser texto y no puede estar vacío.
+2026-11-22 19:34:59 | INFO | FIN: 08. Asesoría con especialidad vacía
+2026-11-22 19:34:59 | INFO | INICIO: 09. Crear reserva de sala
+2026-11-22 19:34:59 | INFO | Reserva creada: RES-787F9BB9
+2026-11-22 19:34:59 | INFO | OK: 09. Crear reserva de sala
+2026-11-22 19:34:59 | INFO | FIN: 09. Crear reserva de sala
+2026-11-22 19:34:59 | INFO | INICIO: 10. Confirmar reserva de sala
+2026-11-22 19:34:59 | INFO | Reserva RES-787F9BB9 procesada: 100000.00
+2026-11-22 19:34:59 | INFO | Finalizó intento de procesamiento de RES-787F9BB9
+2026-11-22 19:34:59 | INFO | Reserva confirmada: RES-787F9BB9
+2026-11-22 19:34:59 | INFO | OK: 10. Confirmar reserva de sala
+2026-11-22 19:34:59 | INFO | FIN: 10. Confirmar reserva de sala
+2026-11-22 19:34:59 | INFO | INICIO: 11. Duración negativa
+2026-11-22 19:34:59 | ERROR | ERROR CONTROLADO en 11. Duración negativa: Duración debe ser mayor que cero y finito.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 35, in crear_reserva
+    reserva = Reserva(cliente, servicio, duracion)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 22, in __init__
+    self.__duracion = validar_numero(duracion, "Duración")
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 45, in validar_numero
+    raise ErrorValidacion(f"{campo} debe ser {regla} y finito.")
+excepciones.ErrorValidacion: Duración debe ser mayor que cero y finito.
+2026-11-22 19:34:59 | INFO | FIN: 11. Duración negativa
+2026-11-22 19:34:59 | INFO | Disponibilidad de Sala de reuniones: False
+2026-11-22 19:34:59 | INFO | Reserva creada: RES-79665C99
+2026-11-22 19:34:59 | INFO | INICIO: 12. Servicio no disponible
+2026-11-22 19:34:59 | ERROR | ERROR CONTROLADO en 12. Servicio no disponible: El servicio no está disponible.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 70, in confirmar
+    total = self.procesar(descuento, impuesto)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 47, in procesar
+    raise ServicioNoDisponibleError("El servicio no está disponible.")
+excepciones.ServicioNoDisponibleError: El servicio no está disponible.
+2026-11-22 19:34:59 | INFO | FIN: 12. Servicio no disponible
+2026-11-22 19:34:59 | INFO | Reserva creada: RES-B4164145
+2026-11-22 19:34:59 | INFO | INICIO: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:34:59 | INFO | Reserva RES-B4164145 procesada: 96390.00
+2026-11-22 19:34:59 | INFO | Finalizó intento de procesamiento de RES-B4164145
+2026-11-22 19:34:59 | INFO | Reserva confirmada: RES-B4164145
+2026-11-22 19:34:59 | INFO | OK: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:34:59 | INFO | FIN: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:34:59 | INFO | INICIO: 14. Cancelar reserva
+2026-11-22 19:34:59 | INFO | Reserva cancelada: RES-B4164145
+2026-11-22 19:34:59 | INFO | OK: 14. Cancelar reserva
+2026-11-22 19:34:59 | INFO | FIN: 14. Cancelar reserva
+2026-11-22 19:34:59 | INFO | INICIO: 15. Cancelación repetida
+2026-11-22 19:34:59 | ERROR | ERROR CONTROLADO en 15. Cancelación repetida: La reserva ya está cancelada.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 77, in cancelar
+    raise ReservaInvalidaError("La reserva ya está cancelada.")
+excepciones.ReservaInvalidaError: La reserva ya está cancelada.
+2026-11-22 19:34:59 | INFO | FIN: 15. Cancelación repetida
+2026-11-22 19:34:59 | INFO | INICIO: 16. Cliente duplicado
+2026-11-22 19:34:59 | INFO | Cliente creado: 123456789
+2026-11-22 19:34:59 | ERROR | ERROR CONTROLADO en 16. Cliente duplicado: Ya existe un cliente con ese documento.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 18, in registrar_cliente
+    raise ClienteInvalidoError("Ya existe un cliente con ese documento.")
+excepciones.ClienteInvalidoError: Ya existe un cliente con ese documento.
+2026-11-22 19:34:59 | INFO | FIN: 16. Cliente duplicado
+2026-11-22 19:34:59 | INFO | Demostración completada con 16 operaciones numeradas.
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Reserva creada: RES-7CE01723
+2026-11-22 19:36:28 | INFO | Reserva cancelada: RES-7CE01723
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 987654321
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | INICIO: prueba fallida
+2026-11-22 19:36:28 | ERROR | ERROR IMPREVISTO en prueba fallida: division by zero
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/test_sistema.py", line 115, in <lambda>
+    self.assertIsNone(ejecutar_controlado("prueba fallida", lambda: 1/0))
+                                                                    ~^~
+ZeroDivisionError: division by zero
+2026-11-22 19:36:28 | INFO | FIN: prueba fallida
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Servicio registrado: PC
+2026-11-22 19:36:28 | INFO | Reserva creada: RES-56B8ED61
+2026-11-22 19:36:28 | INFO | Reserva RES-56B8ED61 procesada: 96390.00
+2026-11-22 19:36:28 | INFO | Finalizó intento de procesamiento de RES-56B8ED61
+2026-11-22 19:36:28 | INFO | Reserva confirmada: RES-56B8ED61
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Reserva creada: RES-9B1E4D0C
+2026-11-22 19:36:28 | INFO | Reserva cancelada: RES-9B1E4D0C
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Reserva creada: RES-7B57E25D
+2026-11-22 19:36:28 | INFO | Reserva RES-7B57E25D procesada: 100000.00
+2026-11-22 19:36:28 | INFO | Finalizó intento de procesamiento de RES-7B57E25D
+2026-11-22 19:36:28 | INFO | Reserva confirmada: RES-7B57E25D
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Reserva creada: RES-F0D93C3B
+2026-11-22 19:36:28 | INFO | Disponibilidad de Sala Azul: False
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Reserva creada: RES-15A6C334
+2026-11-22 19:36:28 | INFO | Reserva RES-15A6C334 procesada: 100000.00
+2026-11-22 19:36:28 | INFO | Finalizó intento de procesamiento de RES-15A6C334
+2026-11-22 19:36:28 | INFO | Reserva confirmada: RES-15A6C334
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:28 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:36:29 | INFO | INICIO: 01. Cliente válido
+2026-11-22 19:36:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:36:29 | INFO | OK: 01. Cliente válido
+2026-11-22 19:36:29 | INFO | FIN: 01. Cliente válido
+2026-11-22 19:36:29 | INFO | INICIO: 02. Cliente con nombre vacío
+2026-11-22 19:36:29 | ERROR | ERROR CONTROLADO en 02. Cliente con nombre vacío: Nombre debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 29, in __init__
+    self.__nombre = validar_texto(nombre, "Nombre")
+                    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Nombre debe ser texto y no puede estar vacío.
+2026-11-22 19:36:29 | INFO | FIN: 02. Cliente con nombre vacío
+2026-11-22 19:36:29 | INFO | INICIO: 03. Documento con letras
+2026-11-22 19:36:29 | ERROR | ERROR CONTROLADO en 03. Documento con letras: El documento debe contener entre 5 y 15 dígitos.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 30, in __init__
+    self.__documento = validar_documento(documento)
+                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 17, in validar_documento
+    raise ClienteInvalidoError("El documento debe contener entre 5 y 15 dígitos.")
+excepciones.ClienteInvalidoError: El documento debe contener entre 5 y 15 dígitos.
+2026-11-22 19:36:29 | INFO | FIN: 03. Documento con letras
+2026-11-22 19:36:29 | INFO | INICIO: 04. Registrar sala válida
+2026-11-22 19:36:29 | INFO | Servicio registrado: Sala de reuniones
+2026-11-22 19:36:29 | INFO | OK: 04. Registrar sala válida
+2026-11-22 19:36:29 | INFO | FIN: 04. Registrar sala válida
+2026-11-22 19:36:29 | INFO | INICIO: 05. Registrar equipos válidos
+2026-11-22 19:36:29 | INFO | Servicio registrado: Portátiles
+2026-11-22 19:36:29 | INFO | OK: 05. Registrar equipos válidos
+2026-11-22 19:36:29 | INFO | FIN: 05. Registrar equipos válidos
+2026-11-22 19:36:29 | INFO | INICIO: 06. Equipos con cantidad inválida
+2026-11-22 19:36:29 | ERROR | ERROR CONTROLADO en 06. Equipos con cantidad inválida: Cantidad de equipos debe ser un entero positivo.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 90, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 93, in validar_parametros
+    validar_entero_positivo(self.cantidad, "Cantidad de equipos")
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 30, in validar_entero_positivo
+    raise ErrorValidacion(f"{campo} debe ser un entero positivo.")
+excepciones.ErrorValidacion: Cantidad de equipos debe ser un entero positivo.
+2026-11-22 19:36:29 | INFO | FIN: 06. Equipos con cantidad inválida
+2026-11-22 19:36:29 | INFO | INICIO: 07. Registrar asesoría válida
+2026-11-22 19:36:29 | INFO | Servicio registrado: Asesoría Python
+2026-11-22 19:36:29 | INFO | OK: 07. Registrar asesoría válida
+2026-11-22 19:36:29 | INFO | FIN: 07. Registrar asesoría válida
+2026-11-22 19:36:29 | INFO | INICIO: 08. Asesoría con especialidad vacía
+2026-11-22 19:36:29 | ERROR | ERROR CONTROLADO en 08. Asesoría con especialidad vacía: Especialidad debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 111, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 114, in validar_parametros
+    self.especialidad = validar_texto(self.especialidad, "Especialidad")
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Especialidad debe ser texto y no puede estar vacío.
+2026-11-22 19:36:29 | INFO | FIN: 08. Asesoría con especialidad vacía
+2026-11-22 19:36:29 | INFO | INICIO: 09. Crear reserva de sala
+2026-11-22 19:36:29 | INFO | Reserva creada: RES-FB9766F0
+2026-11-22 19:36:29 | INFO | OK: 09. Crear reserva de sala
+2026-11-22 19:36:29 | INFO | FIN: 09. Crear reserva de sala
+2026-11-22 19:36:29 | INFO | INICIO: 10. Confirmar reserva de sala
+2026-11-22 19:36:29 | INFO | Reserva RES-FB9766F0 procesada: 100000.00
+2026-11-22 19:36:29 | INFO | Finalizó intento de procesamiento de RES-FB9766F0
+2026-11-22 19:36:29 | INFO | Reserva confirmada: RES-FB9766F0
+2026-11-22 19:36:29 | INFO | OK: 10. Confirmar reserva de sala
+2026-11-22 19:36:29 | INFO | FIN: 10. Confirmar reserva de sala
+2026-11-22 19:36:29 | INFO | INICIO: 11. Duración negativa
+2026-11-22 19:36:29 | ERROR | ERROR CONTROLADO en 11. Duración negativa: Duración debe ser mayor que cero y finito.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 35, in crear_reserva
+    reserva = Reserva(cliente, servicio, duracion)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 22, in __init__
+    self.__duracion = validar_numero(duracion, "Duración")
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 45, in validar_numero
+    raise ErrorValidacion(f"{campo} debe ser {regla} y finito.")
+excepciones.ErrorValidacion: Duración debe ser mayor que cero y finito.
+2026-11-22 19:36:29 | INFO | FIN: 11. Duración negativa
+2026-11-22 19:36:29 | INFO | Disponibilidad de Sala de reuniones: False
+2026-11-22 19:36:29 | INFO | Reserva creada: RES-7A570F24
+2026-11-22 19:36:29 | INFO | INICIO: 12. Servicio no disponible
+2026-11-22 19:36:29 | ERROR | ERROR CONTROLADO en 12. Servicio no disponible: El servicio no está disponible.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 70, in confirmar
+    total = self.procesar(descuento, impuesto)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 47, in procesar
+    raise ServicioNoDisponibleError("El servicio no está disponible.")
+excepciones.ServicioNoDisponibleError: El servicio no está disponible.
+2026-11-22 19:36:29 | INFO | FIN: 12. Servicio no disponible
+2026-11-22 19:36:29 | INFO | Reserva creada: RES-AF36D0DF
+2026-11-22 19:36:29 | INFO | INICIO: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:36:29 | INFO | Reserva RES-AF36D0DF procesada: 96390.00
+2026-11-22 19:36:29 | INFO | Finalizó intento de procesamiento de RES-AF36D0DF
+2026-11-22 19:36:29 | INFO | Reserva confirmada: RES-AF36D0DF
+2026-11-22 19:36:29 | INFO | OK: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:36:29 | INFO | FIN: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:36:29 | INFO | INICIO: 14. Cancelar reserva
+2026-11-22 19:36:29 | INFO | Reserva cancelada: RES-AF36D0DF
+2026-11-22 19:36:29 | INFO | OK: 14. Cancelar reserva
+2026-11-22 19:36:29 | INFO | FIN: 14. Cancelar reserva
+2026-11-22 19:36:29 | INFO | INICIO: 15. Cancelación repetida
+2026-11-22 19:36:29 | ERROR | ERROR CONTROLADO en 15. Cancelación repetida: La reserva ya está cancelada.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 77, in cancelar
+    raise ReservaInvalidaError("La reserva ya está cancelada.")
+excepciones.ReservaInvalidaError: La reserva ya está cancelada.
+2026-11-22 19:36:29 | INFO | FIN: 15. Cancelación repetida
+2026-11-22 19:36:29 | INFO | INICIO: 16. Cliente duplicado
+2026-11-22 19:36:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:36:29 | ERROR | ERROR CONTROLADO en 16. Cliente duplicado: Ya existe un cliente con ese documento.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 18, in registrar_cliente
+    raise ClienteInvalidoError("Ya existe un cliente con ese documento.")
+excepciones.ClienteInvalidoError: Ya existe un cliente con ese documento.
+2026-11-22 19:36:29 | INFO | FIN: 16. Cliente duplicado
+2026-11-22 19:36:29 | INFO | Demostración completada con 16 operaciones numeradas.
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Reserva creada: RES-BA646188
+2026-11-22 19:37:27 | INFO | Reserva cancelada: RES-BA646188
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 987654321
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | INICIO: prueba fallida
+2026-11-22 19:37:27 | ERROR | ERROR IMPREVISTO en prueba fallida: division by zero
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/test_sistema.py", line 115, in <lambda>
+    self.assertIsNone(ejecutar_controlado("prueba fallida", lambda: 1/0))
+                                                                    ~^~
+ZeroDivisionError: division by zero
+2026-11-22 19:37:27 | INFO | FIN: prueba fallida
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Servicio registrado: PC
+2026-11-22 19:37:27 | INFO | Reserva creada: RES-E7EE8094
+2026-11-22 19:37:27 | INFO | Reserva RES-E7EE8094 procesada: 96390.00
+2026-11-22 19:37:27 | INFO | Finalizó intento de procesamiento de RES-E7EE8094
+2026-11-22 19:37:27 | INFO | Reserva confirmada: RES-E7EE8094
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Reserva creada: RES-5BC2990D
+2026-11-22 19:37:27 | INFO | Reserva cancelada: RES-5BC2990D
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Reserva creada: RES-BC7F9BAE
+2026-11-22 19:37:27 | INFO | Reserva RES-BC7F9BAE procesada: 100000.00
+2026-11-22 19:37:27 | INFO | Finalizó intento de procesamiento de RES-BC7F9BAE
+2026-11-22 19:37:27 | INFO | Reserva confirmada: RES-BC7F9BAE
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Reserva creada: RES-B755646A
+2026-11-22 19:37:27 | INFO | Disponibilidad de Sala Azul: False
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Reserva creada: RES-AB8C8CEB
+2026-11-22 19:37:27 | INFO | Reserva RES-AB8C8CEB procesada: 100000.00
+2026-11-22 19:37:27 | INFO | Finalizó intento de procesamiento de RES-AB8C8CEB
+2026-11-22 19:37:27 | INFO | Reserva confirmada: RES-AB8C8CEB
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:27 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:27 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:27 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:37:28 | INFO | INICIO: 01. Cliente válido
+2026-11-22 19:37:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:28 | INFO | Cliente registrado: 123456789
+2026-11-22 19:37:28 | INFO | OK: 01. Cliente válido
+2026-11-22 19:37:28 | INFO | FIN: 01. Cliente válido
+2026-11-22 19:37:28 | INFO | INICIO: 02. Cliente con nombre vacío
+2026-11-22 19:37:28 | ERROR | ERROR CONTROLADO en 02. Cliente con nombre vacío: Nombre debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 29, in __init__
+    self.__nombre = validar_texto(nombre, "Nombre")
+                    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Nombre debe ser texto y no puede estar vacío.
+2026-11-22 19:37:28 | INFO | FIN: 02. Cliente con nombre vacío
+2026-11-22 19:37:28 | INFO | INICIO: 03. Documento con letras
+2026-11-22 19:37:28 | ERROR | ERROR CONTROLADO en 03. Documento con letras: El documento debe contener entre 5 y 15 dígitos.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 30, in __init__
+    self.__documento = validar_documento(documento)
+                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 17, in validar_documento
+    raise ClienteInvalidoError("El documento debe contener entre 5 y 15 dígitos.")
+excepciones.ClienteInvalidoError: El documento debe contener entre 5 y 15 dígitos.
+2026-11-22 19:37:28 | INFO | FIN: 03. Documento con letras
+2026-11-22 19:37:28 | INFO | INICIO: 04. Registrar sala válida
+2026-11-22 19:37:28 | INFO | Servicio registrado: Sala de reuniones
+2026-11-22 19:37:28 | INFO | OK: 04. Registrar sala válida
+2026-11-22 19:37:28 | INFO | FIN: 04. Registrar sala válida
+2026-11-22 19:37:28 | INFO | INICIO: 05. Registrar equipos válidos
+2026-11-22 19:37:28 | INFO | Servicio registrado: Portátiles
+2026-11-22 19:37:28 | INFO | OK: 05. Registrar equipos válidos
+2026-11-22 19:37:28 | INFO | FIN: 05. Registrar equipos válidos
+2026-11-22 19:37:28 | INFO | INICIO: 06. Equipos con cantidad inválida
+2026-11-22 19:37:28 | ERROR | ERROR CONTROLADO en 06. Equipos con cantidad inválida: Cantidad de equipos debe ser un entero positivo.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 90, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 93, in validar_parametros
+    validar_entero_positivo(self.cantidad, "Cantidad de equipos")
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 30, in validar_entero_positivo
+    raise ErrorValidacion(f"{campo} debe ser un entero positivo.")
+excepciones.ErrorValidacion: Cantidad de equipos debe ser un entero positivo.
+2026-11-22 19:37:28 | INFO | FIN: 06. Equipos con cantidad inválida
+2026-11-22 19:37:28 | INFO | INICIO: 07. Registrar asesoría válida
+2026-11-22 19:37:28 | INFO | Servicio registrado: Asesoría Python
+2026-11-22 19:37:28 | INFO | OK: 07. Registrar asesoría válida
+2026-11-22 19:37:28 | INFO | FIN: 07. Registrar asesoría válida
+2026-11-22 19:37:28 | INFO | INICIO: 08. Asesoría con especialidad vacía
+2026-11-22 19:37:28 | ERROR | ERROR CONTROLADO en 08. Asesoría con especialidad vacía: Especialidad debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 111, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 114, in validar_parametros
+    self.especialidad = validar_texto(self.especialidad, "Especialidad")
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Especialidad debe ser texto y no puede estar vacío.
+2026-11-22 19:37:28 | INFO | FIN: 08. Asesoría con especialidad vacía
+2026-11-22 19:37:28 | INFO | INICIO: 09. Crear reserva de sala
+2026-11-22 19:37:28 | INFO | Reserva creada: RES-3BAEC2AA
+2026-11-22 19:37:28 | INFO | OK: 09. Crear reserva de sala
+2026-11-22 19:37:28 | INFO | FIN: 09. Crear reserva de sala
+2026-11-22 19:37:28 | INFO | INICIO: 10. Confirmar reserva de sala
+2026-11-22 19:37:28 | INFO | Reserva RES-3BAEC2AA procesada: 100000.00
+2026-11-22 19:37:28 | INFO | Finalizó intento de procesamiento de RES-3BAEC2AA
+2026-11-22 19:37:28 | INFO | Reserva confirmada: RES-3BAEC2AA
+2026-11-22 19:37:28 | INFO | OK: 10. Confirmar reserva de sala
+2026-11-22 19:37:28 | INFO | FIN: 10. Confirmar reserva de sala
+2026-11-22 19:37:28 | INFO | INICIO: 11. Duración negativa
+2026-11-22 19:37:28 | ERROR | ERROR CONTROLADO en 11. Duración negativa: Duración debe ser mayor que cero y finito.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 35, in crear_reserva
+    reserva = Reserva(cliente, servicio, duracion)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 22, in __init__
+    self.__duracion = validar_numero(duracion, "Duración")
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 45, in validar_numero
+    raise ErrorValidacion(f"{campo} debe ser {regla} y finito.")
+excepciones.ErrorValidacion: Duración debe ser mayor que cero y finito.
+2026-11-22 19:37:28 | INFO | FIN: 11. Duración negativa
+2026-11-22 19:37:28 | INFO | Disponibilidad de Sala de reuniones: False
+2026-11-22 19:37:28 | INFO | Reserva creada: RES-E535571D
+2026-11-22 19:37:28 | INFO | INICIO: 12. Servicio no disponible
+2026-11-22 19:37:28 | ERROR | ERROR CONTROLADO en 12. Servicio no disponible: El servicio no está disponible.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 70, in confirmar
+    total = self.procesar(descuento, impuesto)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 47, in procesar
+    raise ServicioNoDisponibleError("El servicio no está disponible.")
+excepciones.ServicioNoDisponibleError: El servicio no está disponible.
+2026-11-22 19:37:28 | INFO | FIN: 12. Servicio no disponible
+2026-11-22 19:37:28 | INFO | Reserva creada: RES-E0BF4509
+2026-11-22 19:37:28 | INFO | INICIO: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:37:28 | INFO | Reserva RES-E0BF4509 procesada: 96390.00
+2026-11-22 19:37:28 | INFO | Finalizó intento de procesamiento de RES-E0BF4509
+2026-11-22 19:37:28 | INFO | Reserva confirmada: RES-E0BF4509
+2026-11-22 19:37:28 | INFO | OK: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:37:28 | INFO | FIN: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:37:28 | INFO | INICIO: 14. Cancelar reserva
+2026-11-22 19:37:28 | INFO | Reserva cancelada: RES-E0BF4509
+2026-11-22 19:37:28 | INFO | OK: 14. Cancelar reserva
+2026-11-22 19:37:28 | INFO | FIN: 14. Cancelar reserva
+2026-11-22 19:37:28 | INFO | INICIO: 15. Cancelación repetida
+2026-11-22 19:37:28 | ERROR | ERROR CONTROLADO en 15. Cancelación repetida: La reserva ya está cancelada.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 77, in cancelar
+    raise ReservaInvalidaError("La reserva ya está cancelada.")
+excepciones.ReservaInvalidaError: La reserva ya está cancelada.
+2026-11-22 19:37:28 | INFO | FIN: 15. Cancelación repetida
+2026-11-22 19:37:28 | INFO | INICIO: 16. Cliente duplicado
+2026-11-22 19:37:28 | INFO | Cliente creado: 123456789
+2026-11-22 19:37:28 | ERROR | ERROR CONTROLADO en 16. Cliente duplicado: Ya existe un cliente con ese documento.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 18, in registrar_cliente
+    raise ClienteInvalidoError("Ya existe un cliente con ese documento.")
+excepciones.ClienteInvalidoError: Ya existe un cliente con ese documento.
+2026-11-22 19:37:28 | INFO | FIN: 16. Cliente duplicado
+2026-11-22 19:37:28 | INFO | Demostración completada con 16 operaciones numeradas.
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Reserva creada: RES-4DA591B1
+2026-11-22 19:40:29 | INFO | Reserva cancelada: RES-4DA591B1
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 987654321
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | INICIO: prueba fallida
+2026-11-22 19:40:29 | ERROR | ERROR IMPREVISTO en prueba fallida: division by zero
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/test_sistema.py", line 115, in <lambda>
+    self.assertIsNone(ejecutar_controlado("prueba fallida", lambda: 1/0))
+                                                                    ~^~
+ZeroDivisionError: division by zero
+2026-11-22 19:40:29 | INFO | FIN: prueba fallida
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Servicio registrado: PC
+2026-11-22 19:40:29 | INFO | Reserva creada: RES-722369CB
+2026-11-22 19:40:29 | INFO | Reserva RES-722369CB procesada: 96390.00
+2026-11-22 19:40:29 | INFO | Finalizó intento de procesamiento de RES-722369CB
+2026-11-22 19:40:29 | INFO | Reserva confirmada: RES-722369CB
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Reserva creada: RES-BBE0C29D
+2026-11-22 19:40:29 | INFO | Reserva cancelada: RES-BBE0C29D
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Reserva creada: RES-944D09E7
+2026-11-22 19:40:29 | INFO | Reserva RES-944D09E7 procesada: 100000.00
+2026-11-22 19:40:29 | INFO | Finalizó intento de procesamiento de RES-944D09E7
+2026-11-22 19:40:29 | INFO | Reserva confirmada: RES-944D09E7
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Reserva creada: RES-28579D42
+2026-11-22 19:40:29 | INFO | Disponibilidad de Sala Azul: False
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Reserva creada: RES-001C5397
+2026-11-22 19:40:29 | INFO | Reserva RES-001C5397 procesada: 100000.00
+2026-11-22 19:40:29 | INFO | Finalizó intento de procesamiento de RES-001C5397
+2026-11-22 19:40:29 | INFO | Reserva confirmada: RES-001C5397
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:40:29 | INFO | Cliente creado: 123456789
+2026-11-22 19:40:29 | INFO | Cliente registrado: 123456789
+2026-11-22 19:40:29 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Reserva creada: RES-A6F7C9DF
+2026-11-22 19:46:00 | INFO | Reserva cancelada: RES-A6F7C9DF
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 987654321
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | INICIO: prueba fallida
+2026-11-22 19:46:00 | ERROR | ERROR IMPREVISTO en prueba fallida: division by zero
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/test_sistema.py", line 115, in <lambda>
+    self.assertIsNone(ejecutar_controlado("prueba fallida", lambda: 1/0))
+                                                                    ~^~
+ZeroDivisionError: division by zero
+2026-11-22 19:46:00 | INFO | FIN: prueba fallida
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Servicio registrado: PC
+2026-11-22 19:46:00 | INFO | Reserva creada: RES-8D958062
+2026-11-22 19:46:00 | INFO | Reserva RES-8D958062 procesada: 96390.00
+2026-11-22 19:46:00 | INFO | Finalizó intento de procesamiento de RES-8D958062
+2026-11-22 19:46:00 | INFO | Reserva confirmada: RES-8D958062
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Reserva creada: RES-49935772
+2026-11-22 19:46:00 | INFO | Reserva cancelada: RES-49935772
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Reserva creada: RES-CDBB0EBC
+2026-11-22 19:46:00 | INFO | Reserva RES-CDBB0EBC procesada: 100000.00
+2026-11-22 19:46:00 | INFO | Finalizó intento de procesamiento de RES-CDBB0EBC
+2026-11-22 19:46:00 | INFO | Reserva confirmada: RES-CDBB0EBC
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Reserva creada: RES-D88D37EB
+2026-11-22 19:46:00 | INFO | Disponibilidad de Sala Azul: False
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Reserva creada: RES-727B10A2
+2026-11-22 19:46:00 | INFO | Reserva RES-727B10A2 procesada: 100000.00
+2026-11-22 19:46:00 | INFO | Finalizó intento de procesamiento de RES-727B10A2
+2026-11-22 19:46:00 | INFO | Reserva confirmada: RES-727B10A2
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:00 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:00 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:00 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:01 | INFO | INICIO: 01. Cliente válido
+2026-11-22 19:46:01 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:01 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:01 | INFO | OK: 01. Cliente válido
+2026-11-22 19:46:01 | INFO | FIN: 01. Cliente válido
+2026-11-22 19:46:01 | INFO | INICIO: 02. Cliente con nombre vacío
+2026-11-22 19:46:01 | ERROR | ERROR CONTROLADO en 02. Cliente con nombre vacío: Nombre debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 29, in __init__
+    self.__nombre = validar_texto(nombre, "Nombre")
+                    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Nombre debe ser texto y no puede estar vacío.
+2026-11-22 19:46:01 | INFO | FIN: 02. Cliente con nombre vacío
+2026-11-22 19:46:01 | INFO | INICIO: 03. Documento con letras
+2026-11-22 19:46:01 | ERROR | ERROR CONTROLADO en 03. Documento con letras: El documento debe contener entre 5 y 15 dígitos.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 30, in __init__
+    self.__documento = validar_documento(documento)
+                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 17, in validar_documento
+    raise ClienteInvalidoError("El documento debe contener entre 5 y 15 dígitos.")
+excepciones.ClienteInvalidoError: El documento debe contener entre 5 y 15 dígitos.
+2026-11-22 19:46:01 | INFO | FIN: 03. Documento con letras
+2026-11-22 19:46:01 | INFO | INICIO: 04. Registrar sala válida
+2026-11-22 19:46:01 | INFO | Servicio registrado: Sala de reuniones
+2026-11-22 19:46:01 | INFO | OK: 04. Registrar sala válida
+2026-11-22 19:46:01 | INFO | FIN: 04. Registrar sala válida
+2026-11-22 19:46:01 | INFO | INICIO: 05. Registrar equipos válidos
+2026-11-22 19:46:01 | INFO | Servicio registrado: Portátiles
+2026-11-22 19:46:01 | INFO | OK: 05. Registrar equipos válidos
+2026-11-22 19:46:01 | INFO | FIN: 05. Registrar equipos válidos
+2026-11-22 19:46:01 | INFO | INICIO: 06. Equipos con cantidad inválida
+2026-11-22 19:46:01 | ERROR | ERROR CONTROLADO en 06. Equipos con cantidad inválida: Cantidad de equipos debe ser un entero positivo.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 90, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 93, in validar_parametros
+    validar_entero_positivo(self.cantidad, "Cantidad de equipos")
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 30, in validar_entero_positivo
+    raise ErrorValidacion(f"{campo} debe ser un entero positivo.")
+excepciones.ErrorValidacion: Cantidad de equipos debe ser un entero positivo.
+2026-11-22 19:46:01 | INFO | FIN: 06. Equipos con cantidad inválida
+2026-11-22 19:46:01 | INFO | INICIO: 07. Registrar asesoría válida
+2026-11-22 19:46:01 | INFO | Servicio registrado: Asesoría Python
+2026-11-22 19:46:01 | INFO | OK: 07. Registrar asesoría válida
+2026-11-22 19:46:01 | INFO | FIN: 07. Registrar asesoría válida
+2026-11-22 19:46:01 | INFO | INICIO: 08. Asesoría con especialidad vacía
+2026-11-22 19:46:01 | ERROR | ERROR CONTROLADO en 08. Asesoría con especialidad vacía: Especialidad debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 111, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 114, in validar_parametros
+    self.especialidad = validar_texto(self.especialidad, "Especialidad")
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Especialidad debe ser texto y no puede estar vacío.
+2026-11-22 19:46:01 | INFO | FIN: 08. Asesoría con especialidad vacía
+2026-11-22 19:46:01 | INFO | INICIO: 09. Crear reserva de sala
+2026-11-22 19:46:01 | INFO | Reserva creada: RES-954C3EF4
+2026-11-22 19:46:01 | INFO | OK: 09. Crear reserva de sala
+2026-11-22 19:46:01 | INFO | FIN: 09. Crear reserva de sala
+2026-11-22 19:46:01 | INFO | INICIO: 10. Confirmar reserva de sala
+2026-11-22 19:46:01 | INFO | Reserva RES-954C3EF4 procesada: 100000.00
+2026-11-22 19:46:01 | INFO | Finalizó intento de procesamiento de RES-954C3EF4
+2026-11-22 19:46:01 | INFO | Reserva confirmada: RES-954C3EF4
+2026-11-22 19:46:01 | INFO | OK: 10. Confirmar reserva de sala
+2026-11-22 19:46:01 | INFO | FIN: 10. Confirmar reserva de sala
+2026-11-22 19:46:01 | INFO | INICIO: 11. Duración negativa
+2026-11-22 19:46:01 | ERROR | ERROR CONTROLADO en 11. Duración negativa: Duración debe ser mayor que cero y finito.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 35, in crear_reserva
+    reserva = Reserva(cliente, servicio, duracion)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 22, in __init__
+    self.__duracion = validar_numero(duracion, "Duración")
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 45, in validar_numero
+    raise ErrorValidacion(f"{campo} debe ser {regla} y finito.")
+excepciones.ErrorValidacion: Duración debe ser mayor que cero y finito.
+2026-11-22 19:46:01 | INFO | FIN: 11. Duración negativa
+2026-11-22 19:46:01 | INFO | Disponibilidad de Sala de reuniones: False
+2026-11-22 19:46:01 | INFO | Reserva creada: RES-61DB8F92
+2026-11-22 19:46:01 | INFO | INICIO: 12. Servicio no disponible
+2026-11-22 19:46:01 | ERROR | ERROR CONTROLADO en 12. Servicio no disponible: El servicio no está disponible.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 70, in confirmar
+    total = self.procesar(descuento, impuesto)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 47, in procesar
+    raise ServicioNoDisponibleError("El servicio no está disponible.")
+excepciones.ServicioNoDisponibleError: El servicio no está disponible.
+2026-11-22 19:46:01 | INFO | FIN: 12. Servicio no disponible
+2026-11-22 19:46:01 | INFO | Reserva creada: RES-48DCE6D9
+2026-11-22 19:46:01 | INFO | INICIO: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:46:01 | INFO | Reserva RES-48DCE6D9 procesada: 96390.00
+2026-11-22 19:46:01 | INFO | Finalizó intento de procesamiento de RES-48DCE6D9
+2026-11-22 19:46:01 | INFO | Reserva confirmada: RES-48DCE6D9
+2026-11-22 19:46:01 | INFO | OK: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:46:01 | INFO | FIN: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:46:01 | INFO | INICIO: 14. Cancelar reserva
+2026-11-22 19:46:01 | INFO | Reserva cancelada: RES-48DCE6D9
+2026-11-22 19:46:01 | INFO | OK: 14. Cancelar reserva
+2026-11-22 19:46:01 | INFO | FIN: 14. Cancelar reserva
+2026-11-22 19:46:01 | INFO | INICIO: 15. Cancelación repetida
+2026-11-22 19:46:01 | ERROR | ERROR CONTROLADO en 15. Cancelación repetida: La reserva ya está cancelada.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 77, in cancelar
+    raise ReservaInvalidaError("La reserva ya está cancelada.")
+excepciones.ReservaInvalidaError: La reserva ya está cancelada.
+2026-11-22 19:46:01 | INFO | FIN: 15. Cancelación repetida
+2026-11-22 19:46:01 | INFO | INICIO: 16. Cliente duplicado
+2026-11-22 19:46:01 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:01 | ERROR | ERROR CONTROLADO en 16. Cliente duplicado: Ya existe un cliente con ese documento.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 18, in registrar_cliente
+    raise ClienteInvalidoError("Ya existe un cliente con ese documento.")
+excepciones.ClienteInvalidoError: Ya existe un cliente con ese documento.
+2026-11-22 19:46:01 | INFO | FIN: 16. Cliente duplicado
+2026-11-22 19:46:01 | INFO | Demostración completada con 16 operaciones numeradas.
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-2BC490A1
+2026-11-22 19:46:02 | INFO | Reserva cancelada: RES-2BC490A1
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 987654321
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | INICIO: prueba fallida
+2026-11-22 19:46:02 | ERROR | ERROR IMPREVISTO en prueba fallida: division by zero
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/test_sistema.py", line 115, in <lambda>
+    self.assertIsNone(ejecutar_controlado("prueba fallida", lambda: 1/0))
+                                                                    ~^~
+ZeroDivisionError: division by zero
+2026-11-22 19:46:02 | INFO | FIN: prueba fallida
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Servicio registrado: PC
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-A36A16EF
+2026-11-22 19:46:02 | INFO | Reserva RES-A36A16EF procesada: 96390.00
+2026-11-22 19:46:02 | INFO | Finalizó intento de procesamiento de RES-A36A16EF
+2026-11-22 19:46:02 | INFO | Reserva confirmada: RES-A36A16EF
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-5A1E0F17
+2026-11-22 19:46:02 | INFO | Reserva cancelada: RES-5A1E0F17
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-97679771
+2026-11-22 19:46:02 | INFO | Reserva RES-97679771 procesada: 100000.00
+2026-11-22 19:46:02 | INFO | Finalizó intento de procesamiento de RES-97679771
+2026-11-22 19:46:02 | INFO | Reserva confirmada: RES-97679771
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-614845FF
+2026-11-22 19:46:02 | INFO | Disponibilidad de Sala Azul: False
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-13A21938
+2026-11-22 19:46:02 | INFO | Reserva RES-13A21938 procesada: 100000.00
+2026-11-22 19:46:02 | INFO | Finalizó intento de procesamiento de RES-13A21938
+2026-11-22 19:46:02 | INFO | Reserva confirmada: RES-13A21938
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala Azul
+2026-11-22 19:46:02 | INFO | INICIO: 01. Cliente válido
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | INFO | Cliente registrado: 123456789
+2026-11-22 19:46:02 | INFO | OK: 01. Cliente válido
+2026-11-22 19:46:02 | INFO | FIN: 01. Cliente válido
+2026-11-22 19:46:02 | INFO | INICIO: 02. Cliente con nombre vacío
+2026-11-22 19:46:02 | ERROR | ERROR CONTROLADO en 02. Cliente con nombre vacío: Nombre debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 29, in __init__
+    self.__nombre = validar_texto(nombre, "Nombre")
+                    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Nombre debe ser texto y no puede estar vacío.
+2026-11-22 19:46:02 | INFO | FIN: 02. Cliente con nombre vacío
+2026-11-22 19:46:02 | INFO | INICIO: 03. Documento con letras
+2026-11-22 19:46:02 | ERROR | ERROR CONTROLADO en 03. Documento con letras: El documento debe contener entre 5 y 15 dígitos.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 16, in registrar_cliente
+    cliente = Cliente(nombre, documento, telefono)
+  File "/mnt/data/Software_FJ_Fase4/entidades.py", line 30, in __init__
+    self.__documento = validar_documento(documento)
+                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 17, in validar_documento
+    raise ClienteInvalidoError("El documento debe contener entre 5 y 15 dígitos.")
+excepciones.ClienteInvalidoError: El documento debe contener entre 5 y 15 dígitos.
+2026-11-22 19:46:02 | INFO | FIN: 03. Documento con letras
+2026-11-22 19:46:02 | INFO | INICIO: 04. Registrar sala válida
+2026-11-22 19:46:02 | INFO | Servicio registrado: Sala de reuniones
+2026-11-22 19:46:02 | INFO | OK: 04. Registrar sala válida
+2026-11-22 19:46:02 | INFO | FIN: 04. Registrar sala válida
+2026-11-22 19:46:02 | INFO | INICIO: 05. Registrar equipos válidos
+2026-11-22 19:46:02 | INFO | Servicio registrado: Portátiles
+2026-11-22 19:46:02 | INFO | OK: 05. Registrar equipos válidos
+2026-11-22 19:46:02 | INFO | FIN: 05. Registrar equipos válidos
+2026-11-22 19:46:02 | INFO | INICIO: 06. Equipos con cantidad inválida
+2026-11-22 19:46:02 | ERROR | ERROR CONTROLADO en 06. Equipos con cantidad inválida: Cantidad de equipos debe ser un entero positivo.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 90, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 93, in validar_parametros
+    validar_entero_positivo(self.cantidad, "Cantidad de equipos")
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 30, in validar_entero_positivo
+    raise ErrorValidacion(f"{campo} debe ser un entero positivo.")
+excepciones.ErrorValidacion: Cantidad de equipos debe ser un entero positivo.
+2026-11-22 19:46:02 | INFO | FIN: 06. Equipos con cantidad inválida
+2026-11-22 19:46:02 | INFO | INICIO: 07. Registrar asesoría válida
+2026-11-22 19:46:02 | INFO | Servicio registrado: Asesoría Python
+2026-11-22 19:46:02 | INFO | OK: 07. Registrar asesoría válida
+2026-11-22 19:46:02 | INFO | FIN: 07. Registrar asesoría válida
+2026-11-22 19:46:02 | INFO | INICIO: 08. Asesoría con especialidad vacía
+2026-11-22 19:46:02 | ERROR | ERROR CONTROLADO en 08. Asesoría con especialidad vacía: Especialidad debe ser texto y no puede estar vacío.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 111, in __init__
+    self.validar_parametros()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/Software_FJ_Fase4/servicios.py", line 114, in validar_parametros
+    self.especialidad = validar_texto(self.especialidad, "Especialidad")
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 10, in validar_texto
+    raise ErrorValidacion(f"{campo} debe ser texto y no puede estar vacío.")
+excepciones.ErrorValidacion: Especialidad debe ser texto y no puede estar vacío.
+2026-11-22 19:46:02 | INFO | FIN: 08. Asesoría con especialidad vacía
+2026-11-22 19:46:02 | INFO | INICIO: 09. Crear reserva de sala
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-55B8D6B1
+2026-11-22 19:46:02 | INFO | OK: 09. Crear reserva de sala
+2026-11-22 19:46:02 | INFO | FIN: 09. Crear reserva de sala
+2026-11-22 19:46:02 | INFO | INICIO: 10. Confirmar reserva de sala
+2026-11-22 19:46:02 | INFO | Reserva RES-55B8D6B1 procesada: 100000.00
+2026-11-22 19:46:02 | INFO | Finalizó intento de procesamiento de RES-55B8D6B1
+2026-11-22 19:46:02 | INFO | Reserva confirmada: RES-55B8D6B1
+2026-11-22 19:46:02 | INFO | OK: 10. Confirmar reserva de sala
+2026-11-22 19:46:02 | INFO | FIN: 10. Confirmar reserva de sala
+2026-11-22 19:46:02 | INFO | INICIO: 11. Duración negativa
+2026-11-22 19:46:02 | ERROR | ERROR CONTROLADO en 11. Duración negativa: Duración debe ser mayor que cero y finito.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 35, in crear_reserva
+    reserva = Reserva(cliente, servicio, duracion)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 22, in __init__
+    self.__duracion = validar_numero(duracion, "Duración")
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/validaciones.py", line 45, in validar_numero
+    raise ErrorValidacion(f"{campo} debe ser {regla} y finito.")
+excepciones.ErrorValidacion: Duración debe ser mayor que cero y finito.
+2026-11-22 19:46:02 | INFO | FIN: 11. Duración negativa
+2026-11-22 19:46:02 | INFO | Disponibilidad de Sala de reuniones: False
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-5368A6C9
+2026-11-22 19:46:02 | INFO | INICIO: 12. Servicio no disponible
+2026-11-22 19:46:02 | ERROR | ERROR CONTROLADO en 12. Servicio no disponible: El servicio no está disponible.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 70, in confirmar
+    total = self.procesar(descuento, impuesto)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 47, in procesar
+    raise ServicioNoDisponibleError("El servicio no está disponible.")
+excepciones.ServicioNoDisponibleError: El servicio no está disponible.
+2026-11-22 19:46:02 | INFO | FIN: 12. Servicio no disponible
+2026-11-22 19:46:02 | INFO | Reserva creada: RES-ABB8B477
+2026-11-22 19:46:02 | INFO | INICIO: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:46:02 | INFO | Reserva RES-ABB8B477 procesada: 96390.00
+2026-11-22 19:46:02 | INFO | Finalizó intento de procesamiento de RES-ABB8B477
+2026-11-22 19:46:02 | INFO | Reserva confirmada: RES-ABB8B477
+2026-11-22 19:46:02 | INFO | OK: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:46:02 | INFO | FIN: 13. Costo con descuento 10% e IVA 19%
+2026-11-22 19:46:02 | INFO | INICIO: 14. Cancelar reserva
+2026-11-22 19:46:02 | INFO | Reserva cancelada: RES-ABB8B477
+2026-11-22 19:46:02 | INFO | OK: 14. Cancelar reserva
+2026-11-22 19:46:02 | INFO | FIN: 14. Cancelar reserva
+2026-11-22 19:46:02 | INFO | INICIO: 15. Cancelación repetida
+2026-11-22 19:46:02 | ERROR | ERROR CONTROLADO en 15. Cancelación repetida: La reserva ya está cancelada.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/reservas.py", line 77, in cancelar
+    raise ReservaInvalidaError("La reserva ya está cancelada.")
+excepciones.ReservaInvalidaError: La reserva ya está cancelada.
+2026-11-22 19:46:02 | INFO | FIN: 15. Cancelación repetida
+2026-11-22 19:46:02 | INFO | INICIO: 16. Cliente duplicado
+2026-11-22 19:46:02 | INFO | Cliente creado: 123456789
+2026-11-22 19:46:02 | ERROR | ERROR CONTROLADO en 16. Cliente duplicado: Ya existe un cliente con ese documento.
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/excepciones.py", line 51, in ejecutar_controlado
+    resultado = funcion(*args, **kwargs)
+  File "/mnt/data/Software_FJ_Fase4/sistema.py", line 18, in registrar_cliente
+    raise ClienteInvalidoError("Ya existe un cliente con ese documento.")
+excepciones.ClienteInvalidoError: Ya existe un cliente con ese documento.
+2026-11-22 19:46:02 | INFO | FIN: 16. Cliente duplicado
+2026-11-22 19:46:02 | INFO | Demostración completada con 16 operaciones numeradas.

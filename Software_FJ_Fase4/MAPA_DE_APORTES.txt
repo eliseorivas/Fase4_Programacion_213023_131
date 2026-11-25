@@ -1,0 +1,15 @@
+SOFTWARE FJ - MAPA DE LOS CINCO APORTES
+
+1. CLIENTE: entidades.py (Clase Entidad abstracta y Cliente); validaciones.py
+2. SERVICIO: servicios.py (Clase abstracta Servicio y ReservaSala)
+3. SERVICIOS ESPECIALIZADOS: servicios.py (AlquilerEquipos y AsesoriaEspecializada)
+4. RESERVA: reservas.py (crear, procesar, confirmar, cancelar); sistema.py (listas)
+5. EXCEPCIONES: excepciones.py; validaciones.py; logs/software_fj.log
+
+Además: main.py (menú), demostracion.py (16 operaciones),
+test_sistema.py (22 pruebas), EVIDENCIA_EJECUCION.txt (salidas reales),
+Informe_Fase4_Software_FJ.pdf (informe) y README.md (guía de uso).
+
+Este código constituye una implementación completa independiente.
+No debe presentarse como si fuera el código escrito por otros integrantes.
+La guía indica trabajo colaborativo: solicitar permiso al tutor para entregar individualmente.

@@ -1,0 +1,11 @@
+Buenas tardes, tutor y compañeros:
+
+Comparto una versión funcional del Sistema Integral de Gestión de Clientes, Servicios y Reservas (Software FJ), desarrollada para la Fase 4 de Programación. El proyecto incluye clases abstractas, herencia, polimorfismo, validaciones, reservas y manejo de excepciones con registros de eventos y errores.
+
+Se ejecutaron 16 operaciones demostrativas, con datos válidos e inválidos, y 22 pruebas automatizadas que finalizaron correctamente (OK). Adjunto el código fuente, el informe PDF y las evidencias de ejecución.
+
+Debido a que no cuento con permiso de escritura en el repositorio grupal, comparto los archivos por este medio y quedo atento a las orientaciones del tutor sobre la integración de los aportes y la posibilidad de una entrega individual.
+
+Atentamente,
+Wilmer Adrián Rueda Higuita
+Grupo 213023_131
